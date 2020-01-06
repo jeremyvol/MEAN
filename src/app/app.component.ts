@@ -5,10 +5,4 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.sass']
 })
-export class AppComponent {
-  posts = [];
-
-  onPostAdded(post) {
-    this.posts.push(post);
-  }
-}
+export class AppComponent {}
